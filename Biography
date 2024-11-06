@@ -17,7 +17,7 @@ int main() {
 
     cout << "Enter your age: ";
     while (!(cin >> age)) {
-        cout << "Invalid input. Please enter a number for age: ";
+        cout << "Invalid input. You must enter a number for your age: ";
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
